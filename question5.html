@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEX</title>
+    <link rel="stylesheet" href="style5.css" />
+  </head>
+
+  <body>
+    <!-- full wrapper container -->
+    <div class="full-container">
+      <!-- left section -->
+      <section class="left">
+        <!-- navigation container -->
+        <nav>
+          <div class="logos-container">
+            <img src="https://s3-alpha-sig.figma.com/img/bbf7/d6b5/9dee93e0fb1008416bfeed8b4a476357?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bO8WjiwUuLy2sDGNhjUl4xhdRcc3Rctu1-jlLc3kBBB7g4HfVU2~-mwLd3pfnhoVc5iCLCsrA5cXMmLVXlyazOCF55iDWvv0nQOr0yO6jaZiZGen4pWFzGMcr3oj9AcJ2cgvaNHfaR9yUBSkm4IWhL32PACP1yiTjFZlyQ1Kxtc883kh3bbp2c8rfqg2sZb36jDRVyZz9LFTl9OtKE5k8VmOYnfUxq9iLYBi5PgatBRxGgr18ebQOJ8bRgdbIdx-pnwJzrkBqwmDUVPEwSrQJJtqnhQO3EIf63C1WYkwGv97LNZ2FQynZ7jthkCmMCLJP6G2BxpzOR7~YRIMeoDLSA__" alt="IRCTC" />
+            <img src="Assets/railwaylogo.png" alt="Railways" />
+          </div>
+          <div class="navigation-container">
+            <ul>
+              <li>Ask Disha</li>
+              <li>Contact us</li>
+              <li>Alerts</li>
+            </ul>
+            <ul>
+              <li>
+                <button class="selected">Login</button>
+              </li>
+              <li>
+                <button>Register</button>
+              </li>
+              <li>
+                <button>Agent Login</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- main section -->
+        <main>
+          <div>
+            <h2 class="main-title">Indian Railways</h2>
+            <p class="sub-main-title">
+              <span class="green-text"> Safety </span>
+              <span class="orange-text"> Security </span>
+              <span class="blue-text"> Punctuality </span>
+            </p>
+          </div>
+          <div class="choose-container">
+            <button class="selected">
+              <img src="Assets/Vector.png" alt="" /> BOOK Ticket
+            </button>
+            <button>
+              <img src="Assets/done_FILL0_wght400_GRAD0_opsz48 (1) 1.png" alt="" /> PNR Status
+            </button>
+            <button>
+              <img src="Assets/insert_chart_FILL0_wght400_GRAD0_opsz48 1.png" alt="" /> Charts / Vacancy
+            </button>
+          </div>
+          <div class="journey-details-container">
+            <div class="journey-details-section-container">
+              <div class="card-element">
+                <div class="card-element-image-container">
+                  <img src="Assets/Group.png" alt="" />
+                </div>
+                <div class="select-option">
+                  <div class="dropdown">
+                    <span>From</span>
+                    <img src="Assets/expand.png" alt="" />
+                  </div>
+                  <div class="choose-location">
+                    <h2>Bangalore</h2>
+                    <span>KSR - Bangalore</span>
+                  </div>
+                </div>
+              </div>
+              <div class="center-from-to-arrow">
+                <img src="Assets/arrow.png" alt="" />
+              </div>
+              <div class="card-element">
+                <div class="card-element-image-container">
+                  <img src="Assets/destination.png" alt="" />
+                </div>
+                <div class="select-option">
+                  <div class="dropdown">
+                    <span>To</span>
+                    <img src="Assets/expand.png" alt="" />
+                  </div>
+                  <div class="choose-location">
+                    <h2>Kasaragod</h2>
+                    <span>KSD - Kasaragod</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="journey-details-section-container">
+              <div class="card-element">
+                <div class="card-element-image-container">
+                  <img src="Assets/calendar.png" alt="" />
+                </div>
+                <div class="select-option">
+                  <div class="dropdown">
+                    <span>Date</span>
+                    <img src="Assets/expand.png" alt="" />
+                  </div>
+                  <div class="choose-location">
+                    <h2>01 Aug 23</h2>
+                    <span>Tuesday</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-element">
+                <div class="card-element-image-container">
+                  <img src="Assets/group_work_FILL0_wght200_GRAD0_opsz48 1.png" alt="" />
+                </div>
+                <div class="select-option">
+                  <div class="dropdown">
+                    <span>Class</span>
+                    <img src="Assets/expand.png" alt="" />
+                  </div>
+                  <div class="choose-location">
+                    <h2>3A</h2>
+                    <span>AC 3 tier</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-element">
+                <div class="card-element-image-container">
+                  <img src="Assets/fillow.png" alt="" />
+                </div>
+                <div class="select-option">
+                  <div class="dropdown">
+                    <span>Seat Type</span>
+                    <img src="Assets/expand.png" alt="" />
+                  </div>
+                  <div class="choose-location">
+                    <h2>TATKAL</h2>
+                    <span>AC 3 Tier</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="search-button">
+            Search Train
+            <img
+              src="Assets/arrow_forward_FILL0_wght400_GRAD0_opsz48 1.png"
+              alt=""
+            />
+          </button>
+        </main>
+      </section>
+      <!-- right section -->
+      <section class="right">
+        <img
+          src="Assets/vandebharat.png"
+          alt=""
+        />
+      </section>
+    </div>
+  </body>
+</html>
